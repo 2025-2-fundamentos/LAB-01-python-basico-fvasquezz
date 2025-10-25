@@ -5,7 +5,7 @@ solo puede utilizar las funciones y librerias basicas de python. No puede
 utilizar pandas, numpy o scipy.
 """
 import csv
-ruta=r'C:\Users\Arquitecto\Documents\GitHub\LAB-01-python-basico-fvasquezz\files\input\data.csv'
+ruta = "files/input/data.csv"
 
 def pregunta_10():
     """
@@ -30,7 +30,7 @@ def pregunta_10():
         fila=(i[0],valor1,valor2)
         lista.append(fila)
     return lista
-    
+
 
 
 
